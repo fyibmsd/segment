@@ -1,5 +1,7 @@
 ## Segment Tree
 
+[![Build Status](https://travis-ci.org/fyibmsd/segment.svg?branch=master)](https://travis-ci.org/fyibmsd/segment)
+
 ### Intro
 Segment tree is a tree data structure used for storing information about intervals, or segments. It allows querying which of the stored segments contain a given point.
 

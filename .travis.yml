@@ -1,0 +1,6 @@
+language: go
+php:
+  - 1.x
+
+script:
+  - go test -v .
