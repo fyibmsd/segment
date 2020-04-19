@@ -1,0 +1,11 @@
+image: golang:1.14
+
+stages:
+  - test
+
+test:
+  stage: test
+  before_script:
+    - go version
+  script:
+    - go test ./... -v
